@@ -1,0 +1,96 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.warna1 {
+    background-color: #112D4E;
+}
+
+.warna2 {
+    background-color: #3F72AF;
+}
+
+.warna3 {
+    background-color: #DBE2EF;
+}
+
+.warna4 {
+    background-color: #F9F7F7;
+}
+
+.banner {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/background2.jpg');
+}
+
+.highlighted-kategori {
+    height: 250px;
+}
+
+.kategori-magang{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/magang.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-tokutei{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/tokutei.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-engineer{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/engineer.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: white;
+}
+
+.no-decoration:hover {
+    color: #3F72AF;
+}
+
+.text-gaji {
+    font-size: 20px;
+    color: #3F72AF;
+}
+
+.image-box {
+    height: 200px;
+}
+
+.image-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content-subscribe{
+    background-color: rgba(0,0,0,0.7);
+}
+
+.content-subscribe a {
+    color: #fff;
+}
+
+.banner-job {
+    height: 45vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/background2.jpg');
+    background-position: 50% 50%;
+}
+
+.list-group a {
+    text-decoration: none;
+}
+
+.job-terkait-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
